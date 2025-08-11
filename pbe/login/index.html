@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="h1-title">Faça o login para liberar recursos</h1>
+    <form>
+      <div class="input-radio-group">
+        <label for="user 1">Administrador: </label>
+        <input id="user 1" type="radio" name="cargo" class="users" />
+
+        <label for="user 2">Gerente: </label>
+        <input id="user 2" type="radio" name="cargo" class="users">
+
+        <label for="user 3">Funcionário</label>
+        <input id="user 3" type="radio" name="cargo" class="users">
+      </div>
+      <div class="button-group">
+        <label for="email"> Email: </label>
+        <input id="email" type="email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" required>
+      </div>
+      <button class="botton-login" type="submit">login: </button>
+    </form>
+  </div>
+
+  <script src="./js/login.js"></script>
+</body>
+
+</html>
