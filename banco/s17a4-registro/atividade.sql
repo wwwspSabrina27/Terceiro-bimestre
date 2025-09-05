@@ -69,4 +69,5 @@ create view if not exists db_ecommerce.compras_acima_da_media as
                          where tc.total_compras > (select avg(valor_total)
                              from db_ecommerce.compras);
 
-select *  from db_ecommerce.compras_acima_da_media;                 
+select *  from db_ecommerce.compras_acima_da_media;
+drop database 
