@@ -113,4 +113,3 @@ drop procedure db_tech_solutions.add_item_venda;
 create procedure if not exists db_tech_solutions.mostrar_enderecos(
   begin 
 )
-
