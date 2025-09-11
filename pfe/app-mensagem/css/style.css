@@ -1,0 +1,39 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c65d3;
+    font-family: Arial, sans-serif;
+}
+ 
+.container {
+    padding: 20px;
+    background: rgb(117, 60, 60);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ 
+#form-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: top;
+gap: 5px;
+padding: 10px 10px;
+height: 180px;
+width: 200px;
+font-style: normal;
+}
+
