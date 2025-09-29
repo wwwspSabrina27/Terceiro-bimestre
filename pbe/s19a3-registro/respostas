@@ -1,0 +1,18 @@
+1. Por que o princípio do menor privilégio é importante?
+Resposta:
+Limita o acesso dos usuários ao mínimo necessário, reduzindo o impacto de violações de segurança.
+
+2.	Como a criptografia protege os dados em trânsito e em repouso?
+Resposta: 
+Em trânsito: Protege dados durante a transmissão, tornando-os ilegíveis para interceptadores.
+Em repouso: Protege dados armazenados, tornando-os inacessíveis sem a chave de descriptografia.
+
+3. Como implementar um sistema de auditoria eficiente?
+Resposta:
+Defina o escopo, escolha ferramentas, configure a coleta, analise dados, 
+estabeleça alertas e revise/aprimore o sistema.
+
+4. Quais práticas podem prevenir acessos não autorizados ao banco?
+Resposta:
+Autenticação forte, controle de acesso, monitoramento,  firewalls , 
+ criptografia , atualizações, treinamento e testes de segurança.
