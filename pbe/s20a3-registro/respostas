@@ -1,0 +1,19 @@
+1. Quais fatores considerar ao escolher uma API de pagamento?
+resposta:
+Segurança, funcionalidades, preço, facilidade de integração, suporte, 
+escalabilidade, conformidade, reputação.
+
+2. Como vocês garantiriam a segurança durante a integração com APIs de pagamento?
+resposta:
+HTTPS, tokenização, criptografia, validação, autenticação,
+monitoramento, PCI DSS, auditoria.
+
+3. Por que é importante gerenciar o status das transações?
+resposta:
+ Experiência do cliente, contabilidade, gerenciamento de risco,
+resolução de problemas, tomada de decisão.
+
+4. O que incluir em uma resposta ao gerente para justificar a escolha da API?
+resposta:
+Benefícios, comparativo, custos, integração,
+segurança, suporte, conformidade, projeções, recomendações.

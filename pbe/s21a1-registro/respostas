@@ -1,0 +1,18 @@
+1.	Quais ferramentas recomendariam para gerenciar segredos e por quê?
+resposta:
+HashiCorp Vault, AWS Secrets Manager/Azure Key Vault/Google Cloud Secret Manager, 
+Bitwarden/1Password. Escolha a que melhor se adapta às suas necessidades.
+
+2.	Como garantiriam que as configurações estão seguras em produção?
+resposta:
+Não codifique segredos, use variáveis de ambiente, controle o acesso e monitore/audite.
+
+3.	Por que é importante separar segredos por ambiente?
+resposta:
+Isolamento de riscos, configurações específicas e facilidade de gerenciamento.
+
+4.	Como documentar e manter a gestão de segredos acessível à equipe?
+resposta:
+Documentação centralizada, políticas claras, treinamento e revisões regulares.
+
+
