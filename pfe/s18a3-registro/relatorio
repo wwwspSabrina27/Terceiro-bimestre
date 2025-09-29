@@ -1,0 +1,26 @@
+Testes de Performance com k6 (WebFast)
+
+
+ Objetivo: Testar a performance da aplicação front-end sob carga. 
+   
+Ferramenta: k6 (instale e clone o repositório).  
+   
+Configuração: Script (script.js): javascript     import http from 'k6/http';
+import { sleep } from 'k6';
+
+export const options = {
+  vus: 50, // Usuários virtuais (comece com 50)
+  duration: '30s', // Duração do teste
+};
+
+export default function () {
+  http.get('sua_url_da_aplicacao'); // Teste a URL
+  sleep(1);
+}
+  Adapte: Mude vus, duration e adicione http.get() para simular ações (busca, etc.).   
+  
+   Execução: Terminal: k6 run script.js   
+
+   Análise: Métricas: Tempo de resposta, taxa de sucesso (códigos HTTP), taxa de erros. Interpretação: Veja se o tempo de resposta aumenta e se há erros com o aumento da carga.     
+   
+   Iteração: Aumente vus gradualmente (50 -> 100 -> 200...). Teste diferentes cenários. Identifique gargalos (tempo de resposta alto, erros). Otimize (imagens, código, cache). Repita os testes após as otimizações.   
