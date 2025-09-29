@@ -1,0 +1,52 @@
+Relatório de Análise de Acessibilidade do Portal do SUS
+
+Introdução
+
+Este relatório apresenta os resultados da análise de acessibilidade da página inicial do Portal do SUS (https://www.gov.br/saude/pt-br), utilizando as ferramentas Lighthouse, WAVE e AXE DevTools. O objetivo é identificar barreiras de acessibilidade, 
+entender seus impactos e propor soluções para melhorar a experiência de navegação de todos os usuários.
+
+Metodologia
+
+A análise foi realizada seguindo os seguintes passos:
+
+Configuração das Ferramentas:
+Lighthouse: Utilizado através do DevTools do Google Chrome.
+WAVE: Extensão instalada no navegador.
+AXE DevTools: Extensão instalada no navegador.
+
+Execução dos Testes:
+A página inicial do Portal do SUS foi analisada com cada ferramenta.
+Lighthouse: Executado com foco na categoria "Accessibility".
+WAVE e AXE DevTools: Utilizadas para identificar problemas de acessibilidade na página.
+
+Análise dos Resultados:
+Os resultados das três ferramentas foram comparados e os problemas identificados foram categorizados.
+
+Resultados da Análise e Soluções
+
+Contraste de cores insuficiente: Ajustar as cores de texto e fundo para garantir uma relação de contraste 
+adequada.
+Falta de rótulos descritivos (labels): Adicionar rótulos descritivos aos campos de formulário e botões.
+Estrutura de cabeçalhos inadequada: Revisar a hierarquia de cabeçalhos para refletir a 
+estrutura lógica do conteúdo.
+Falta de alternativas de texto (alt text) em imagens: Adicionar texto alternativo descritivo a todas as 
+imagens.
+Problemas de navegação por teclado: Garantir que todos os elementos interativos possam ser acessados e 
+ativados usando apenas o teclado.
+Conteúdo dinâmico sem notificações adequadas: Utilizar áreas ao vivo (live regions) para notificar os 
+usuários sobre atualizações de conteúdo.
+Uso inadequado de ARIA: Revisar o uso de atributos ARIA e garantir que sejam utilizados corretamente.
+Ausência de foco visível: Adicionar um indicador visual claro para os elementos que recebem foco.
+
+Recomendações Gerais
+
+Testes regulares
+Treinamento da equipe
+Feedback dos usuários
+Documentação
+Seguir as diretrizes WCAG
+
+Conclusão
+
+A implementação das soluções propostas contribuirá para a inclusão digital e a melhoria da experiência do 
+usuário.
